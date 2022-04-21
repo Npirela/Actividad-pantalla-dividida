@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.seccion__pantalla-dividida{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+.seccion__derecha{
+    width: 50vw;
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    padding: 4%;
+    text-align: justify;
+    letter-spacing: 0.1em;
+}
+#titulo-derecha{
+    text-align: center;
+    font-weight: bolder;
+}
+.seccion__izquierda{
+    width: 50vw;
+    padding: 4%;
+    
+    background-image: linear-gradient( 174.2deg,  rgba(255,244,228,1) 7.1%, rgba(240,246,238,1) 67.4% );
+}
+
+.seccion__izquierda__img{
+width: 100%;
+height: 100%;
+}
